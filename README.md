@@ -15,7 +15,7 @@ Make sure to add the `--device=/dev/bus` flag to your `docker run` command to al
 
 1. Run the following command:
     ```shell
-    docker run -d --device=/dev/bus -p 8080:8080 busylight-docker:latest
+    docker run -d --device=/dev/bus -p 8000:8000 busylight-docker:latest
     ```
 
 _Explanation:_ adding the `--device=/dev/bus` flag allows the container to access USB devices (located under `/dev/bus/`)
